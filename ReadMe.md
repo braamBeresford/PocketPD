@@ -154,16 +154,16 @@ Step 1: Select the correct hardware version from [PocketPD's Firmware Releases](
 
 Step 2: Mount PocketPD as a drive in your computer
 
-For MacBook user:
+For macOS users:
 
 + Method 1: (Easy)
   + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
-  + Use a USB-A -> USB-C adapter, then use a USB-A -> USB-C cable to connect PocketPD to computer. PocketPD should pop up as `RPI_RP2` drive.
+  + Use USB cable to connect PocketPD to computer. PocketPD should pop up as `RPI_RP2` drive.
 + Method 2: (Intermediate)
-  + Use a USB-A -> USB-C adapter, then use a USB-A -> USB-C cable to connect PocketPD to computer. No drive will popup.
+  + Use USB cable to connect PocketPD to computer. No drive will popup.
   + Use any serial monitor, and start a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
 
-For Windows user:
+For Windows users:
 
 + Method 1: (Easy)
   + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
@@ -171,6 +171,15 @@ For Windows user:
 + Method 2: (Intermediate)
   + Use any USB cable to connect PocketPD to computer. No drive will pop-up.
   + Open [Putty](https://www.putty.org/) and open a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
+
+For Arch/Linux users:
+
++ Method 1: (Easy)
+  + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
+  + Use any USB cable to connect PocketPD to computer. PocketPD should pop up as `RPI_RP2` drive.
++ Method 2: (Intermediate)
+  + Use any USB cable to connect PocketPD to computer. No drive will pop-up.
+  + Open serial monitor (like [moserial](https://archlinux.org/packages/extra/x86_64/moserial/)) and open a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
 
 Step 3: Drag and drop the `.uf2` file into the drive
 
