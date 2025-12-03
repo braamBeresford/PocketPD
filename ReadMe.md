@@ -147,14 +147,14 @@ This is what our "Limited" version HW1.0 looks like. We had to move away from th
 
 Note: Firmware at and before `0.9.5` is only for `PocketPD HW1.0`
 
-Step 1: Select the correct hardware version from [PocketPD's Firmware Releases](https://github.com/CentyLab/PocketPD/releases)
+#### Step 1: Select the correct hardware version from [PocketPD's Firmware Releases](https://github.com/CentyLab/PocketPD/releases)
 
 + HW1.0: Also known as "Limited edition". Download `firmware_xx_HW1.0.uf2`
 + HW1.1+: Our standard production version. Download `firmware_xx_HW1.1.uf2`
 
-Step 2: Mount PocketPD as a drive in your computer
+#### Step 2: Mount PocketPD as a drive in your computer
 
-For macOS users:
+##### For macOS users:
 
 + Method 1: (Easy)
   + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
@@ -163,7 +163,7 @@ For macOS users:
   + Use USB cable to connect PocketPD to computer. No drive will popup.
   + Use any serial monitor, and start a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
 
-For Windows users:
+##### For Windows users:
 
 + Method 1: (Easy)
   + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
@@ -172,7 +172,7 @@ For Windows users:
   + Use any USB cable to connect PocketPD to computer. No drive will pop-up.
   + Open [Putty](https://www.putty.org/) and open a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
 
-For Arch/Linux users:
+##### For Arch/Linux users:
 
 + Method 1: (Easy)
   + Short the BOOT pads at the back of the device with a tweezer in `HW1.0` or hold the BOOT button in `HW1.1`.
@@ -181,7 +181,7 @@ For Arch/Linux users:
   + Use any USB cable to connect PocketPD to computer. No drive will pop-up.
   + Open serial monitor (like [moserial](https://archlinux.org/packages/extra/x86_64/moserial/)) and open a Serial port with 1200 Baudrate. PocketPD should pop up as `RPI_RP2` drive.
 
-Step 3: Drag and drop the `.uf2` file into the drive
+#### Step 3: Drag and drop the `.uf2` file into the drive
 
 If you build the firmware directly from VSCode, the `.uf2` file will be in `.pio/build/pico/`
 
